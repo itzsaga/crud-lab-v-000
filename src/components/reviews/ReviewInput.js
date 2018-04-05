@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import Reviews from './Reviews'
 
 class ReviewInput extends Component {
-  constructor () {
-    super()
+  constructor (props) {
+    super(props)
 
     this.state = {
       text: ''
